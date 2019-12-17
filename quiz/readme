@@ -1,0 +1,1 @@
+cp -r ../express-crud/output/contacts/ ./

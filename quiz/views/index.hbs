@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+
+
+
+{{#ifCond login "1" }}
+<p>Hello {{username}}</p>
+{{else}}
+<a class="nav-link" href="/users/login">Click here to Login</a>
+{{/ifCond}}
